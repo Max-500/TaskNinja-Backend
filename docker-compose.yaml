@@ -2,7 +2,7 @@ version: '3'
 services: 
   genericapi:
     build:
-      dockerfile: Dockerfile
+      dockerfile: dockerfile
     environment:
       - NODE_ENV=production
     env_file: .env
